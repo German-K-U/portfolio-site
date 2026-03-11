@@ -1,0 +1,271 @@
+/* About Page Styles */
+.about-page {
+  padding-top: 80px;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 4rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+  font-size: 1.25rem;
+  opacity: 0.8;
+}
+
+.about-content {
+  padding: 4rem 0;
+}
+
+.about-image-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image-frame {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 5px;
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+}
+
+.about-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #e0e0e0, #f5f5f5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  color: rgba(102, 126, 234, 0.3);
+}
+
+.experience-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+}
+
+.experience-badge .years {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.experience-badge .label {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.about-text {
+  padding-left: 2rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading .highlight {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-text p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-item i {
+  font-size: 2rem;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a1a2e;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Skills Section */
+.skills-section {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.skills-list {
+  padding-right: 2rem;
+}
+
+.skill-item {
+  margin-bottom: 1.5rem;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.skill-percent {
+  font-weight: 700;
+  color: #667eea;
+}
+
+.skill-progress {
+  height: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+
+.skill-progress .progress-bar {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border-radius: 5px;
+}
+
+.services-preview {
+  padding-left: 2rem;
+}
+
+.services-preview h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services-list li {
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.services-list li:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
+}
+
+.services-list li i {
+  color: #667eea;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 992px) {
+  .about-text {
+    padding-left: 0;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .about-stats {
+    justify-content: center;
+  }
+  
+  .skills-list {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .services-preview {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding-top: 60px;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .about-image-frame {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .experience-badge {
+    bottom: -10px;
+    right: -10px;
+    padding: 1rem;
+  }
+  
+  .experience-badge .years {
+    font-size: 1.5rem;
+  }
+  
+  .section-heading {
+    font-size: 1.5rem;
+  }
+  
+  .about-stats {
+    gap: 1rem;
+  }
+  
+  .stat-number {
+    font-size: 1.5rem;
+  }
+}
