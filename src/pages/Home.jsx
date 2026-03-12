@@ -1,5 +1,6 @@
 import { Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { ParticleField } from '../components/3d';
 import '../styles/Home.css';
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <div className="home-page">
       <section className="hero-section">
         <div className="hero-background">
+          <ParticleField />
           <div className="gradient-orb orb-1"></div>
           <div className="gradient-orb orb-2"></div>
           <div className="gradient-orb orb-3"></div>

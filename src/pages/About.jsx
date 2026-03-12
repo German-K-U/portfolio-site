@@ -1,4 +1,5 @@
 import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
+import { FloatingShapes } from '../components/3d';
 import '../styles/About.css';
 
 function About() {
@@ -15,6 +16,9 @@ function About() {
     <div className="about-page">
       <section className="about-hero">
         <Container>
+          <div className="about-3d-wrapper">
+            <FloatingShapes />
+          </div>
           <h1 className="page-title">Обо мне</h1>
           <p className="page-subtitle">Познакомимся ближе</p>
         </Container>

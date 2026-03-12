@@ -1,4 +1,5 @@
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
+import { ContactsScene } from '../components/3d';
 import '../styles/Contacts.css';
 
 function Contacts() {
@@ -11,6 +12,9 @@ function Contacts() {
     <div className="contacts-page">
       <section className="contacts-hero">
         <Container>
+          <div className="contacts-3d-background">
+            <ContactsScene />
+          </div>
           <h1 className="page-title">Контакты</h1>
           <p className="page-subtitle">Свяжитесь со мной</p>
         </Container>

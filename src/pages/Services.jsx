@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { ServicesCards } from '../components/3d';
 import '../styles/Services.css';
 
 function Services() {
@@ -51,6 +52,9 @@ function Services() {
     <div className="services-page">
       <section className="services-hero">
         <Container>
+          <div className="services-3d-background">
+            <ServicesCards />
+          </div>
           <h1 className="page-title">Услуги</h1>
           <p className="page-subtitle">Что я могу предложить</p>
         </Container>

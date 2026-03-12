@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card, Button, Badge } from 'react-bootstrap';
 import { useState } from 'react';
+import { PortfolioCarousel } from '../components/3d';
 import '../styles/Portfolio.css';
 
 function Portfolio() {
@@ -77,6 +78,9 @@ function Portfolio() {
     <div className="portfolio-page">
       <section className="portfolio-hero">
         <Container>
+          <div className="portfolio-3d-background">
+            <PortfolioCarousel />
+          </div>
           <h1 className="page-title">Портфолио</h1>
           <p className="page-subtitle">Мои лучшие работы</p>
         </Container>
